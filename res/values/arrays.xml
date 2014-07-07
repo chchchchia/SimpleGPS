@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="speedUnits">
+        <item name="0">m/s</item>
+        <item name="1">km/hr</item>
+        <item name="2">mph</item>
+    </string-array>
+    <string-array name="speedUnitsValues">
+        <item name="0">m/s</item>
+        <item name="1">km/hr</item>
+        <item name="2">mph</item>
+    </string-array>
+    <string-array name="distanceUnits">
+        <item name="0">m</item>
+        <item name="1">km</item>
+        <item name="2">mi</item>
+    </string-array>
+    <string-array name="distanceUnitsValues">
+        <item name="0">m</item>
+        <item name="1">km</item>
+        <item name="2">mi</item>
+    </string-array>
+    <string-array name="timePref">
+        <item name="0">Total Time</item>
+        <item name="1">Only Time Moving</item>
+    </string-array>
+    <string-array name="timePrefValues">
+        <item name="0">TotTime</item>
+        <item name="1">MoveTime</item>
+    </string-array>
+</resources>

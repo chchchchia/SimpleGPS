@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">mapsFun</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="exit">Exit</string>
+    <string name="load_Route">Load Route</string>
+    <string name="save_Route">Save Route</string>
+	<string name="distanceUnits">Distance Units</string>
+	<string name="distanceUnitsDesc">Please Select the units for distance</string>
+	<string name="speedUnits">Speed Units</string>
+	<string name="speedUnitsDesc">Please select the units for speed</string>
+<!-- 	<string name="debugMode">Debug Mode</string>
+	<string name="debugModeDesc">Debug mode replaces the path line with location fix dots and accuracy circles. Only the first 32 are shown.</string>
+	-->
+	<string name="timePref">Time Display</string>
+	<string name="timePrefDesc">Time can be total time since hitting the Start button or only time while the device is moving</string>
+</resources>

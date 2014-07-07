@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+ 
+     
+    <PreferenceCategory android:title="string/pref_update_setting" >
+ <!--       <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="debugMode"
+            android:summary="@string/debugModeDesc"
+            android:title="@string/debugMode" >
+        </CheckBoxPreference>
+ --> 
+        <ListPreference
+            android:key="timePref"
+            android:entries="@array/timePref"
+            android:summary="@string/timePrefDesc"
+            android:entryValues="@array/timePrefValues"
+            android:defaultValue="1"
+            android:title="@string/timePref"
+            />
+        <ListPreference
+            android:key="Speed units"
+            android:entries="@array/speedUnits"
+            android:summary="@string/speedUnitsDesc"
+            android:entryValues="@array/speedUnitsValues"
+            android:defaultValue="0"
+            android:title="@string/speedUnits" />
+        <ListPreference
+            android:key="Distance units"
+            android:entries="@array/distanceUnits"
+            android:summary="@string/distanceUnitsDesc"
+            android:entryValues="@array/distanceUnitsValues"
+            android:defaultValue="0"
+            android:title="@string/distanceUnits" />
+    </PreferenceCategory>
+ 
+</PreferenceScreen>
